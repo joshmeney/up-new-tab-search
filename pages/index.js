@@ -30,7 +30,7 @@ export default function Home() {
             <img
               src="https://source.unsplash.com/random/1280x720"
               style={{ opacity: 0.1 }}
-              className="absolute inset-0 z-0 w-full"
+              className="absolute inset-0 z-0 object-cover w-screen h-screen"
               alt="Random background"
             />
             <div className="z-10 flex flex-col items-center justify-center">
