@@ -33,7 +33,7 @@ export default function Home() {
               className="absolute inset-0 z-0 object-cover w-screen h-screen"
               alt="Random background"
             />
-            <div className="z-10 flex flex-col items-center justify-center">
+            <div className="z-10 flex flex-col items-center justify-center w-full">
               <img className="w-24 mb-4 md:mb-8 md:w-40 md:-mt-48" src="/logo.png" alt="Up Bank logo" />
               <SearchForm />
             </div>

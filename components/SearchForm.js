@@ -19,14 +19,14 @@ const SearchForm = () => {
   }, []);
 
   return (
-    <form onSubmit={e => handleSubmit(e)} className="flex w-full max-w-lg px-4">
+    <form onSubmit={e => handleSubmit(e)} className="flex w-full max-w-xl px-4">
       <div className="w-full">
         <label htmlFor="search">
           <span className="sr-only">Search</span>
-          <div className="relative flex shadow-xl">
+          <div className="relative flex">
             <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
               <svg
-                className="w-6 h-6 text-gray-600"
+                className="w-6 h-6 text-gray-500"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -42,7 +42,7 @@ const SearchForm = () => {
               onChange={handleChange}
               value={searchValue}
               ref={searchInput}
-              className="w-full py-3 pl-12 pr-5 text-xl text-gray-100 placeholder-gray-600 bg-gray-900 border-2 border-r-0 border-gray-700 rounded rounded-r-none shadow-inner outline-none focus:border-orange-up focus:shadow-none"
+              className="w-full py-3 pl-12 pr-5 text-xl text-gray-100 placeholder-gray-400 bg-gray-800 bg-opacity-50 border-2 border-r-0 border-gray-600 rounded rounded-r-none outline-none focus:border-orange-up focus:shadow-none"
               placeholder="I'm looking for..."
             />
           </div>
