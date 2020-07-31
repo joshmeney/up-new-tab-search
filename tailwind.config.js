@@ -1,7 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  purge: [],
+  purge: ['./pages/index.js'],
   theme: {
     extend: {
       fontFamily: {
@@ -13,10 +13,5 @@ module.exports = {
       },
     },
   },
-  variants: {},
-  plugins: [
-    require('@tailwindcss/ui')({
-      layout: 'sidebar',
-    }),
-  ],
+  plugins: [require('@tailwindcss/ui')],
 };
