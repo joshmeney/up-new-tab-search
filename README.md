@@ -16,7 +16,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+To set your emojis and savings goals, you need to edit the `utils/accountDetails.js` file:
+
+- The property key just needs to match your saving account name
+- The emoji just needs to be the relevant emoji shortcode (minus the colons). Can find a list here: https://emojipedia.org
+- The savings goals need to inputted as cents, not dollars
 
 ## Learn More
 
