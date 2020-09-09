@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First you'll need to create a .env.local file in the root directory and add your Up API key like this:
 
 ```javascript
-NEXT_PUBLIC_UP_API_KEY = "up:yeah:yourrealapikeywillgoinhere";
+NEXT_PUBLIC_UP_API_KEY = "up:yeah:yourrealapikeywillgoinhere"
 ```
 
 Then, run the development server:
